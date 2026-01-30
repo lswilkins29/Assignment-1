@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+body.destination-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/destination4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+a {
+    color: #A4A400;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+ul.visitor-tips {
+    list-style-type: none;
+}
+
+ul.visitor-tips li {
+    background-image: url('images/checkmark.png');
+    background-repeat: no-repeat;
+    background-position: 0 50%;    
+    background-size: 16px 16px;    
+    padding-left: 25px;
+}
