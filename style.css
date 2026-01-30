@@ -19,7 +19,8 @@ h1 {
     text-decoration: underline;
 }
 
-h2, h3 {
+h2,
+h3 {
     text-align: left;
     font-size: 18pt;
     font-weight: normal;
@@ -44,7 +45,7 @@ ul.visitor-tips {
 ul.visitor-tips li {
     background-image: url('images/checkmark.png');
     background-repeat: no-repeat;
-    background-position: 0 50%;    
-    background-size: 16px 16px;    
+    background-position: 0 50%;
+    background-size: 16px 16px;
     padding-left: 25px;
 }
